@@ -132,4 +132,20 @@ Sort Compare
 
 	(Yes, I did that for a class. Yes, it was required, and it actually took six hours. My laptop was a Macbook and I have been reluctant to use one ever after. I added printed messages to see what was taking so long. It was bubble sort, an entire evening of bubble sort. After the first night, I saw the crash in the morning, and realized I would need to keep an eye on things the entire time. I added beeps and boops to the project so I could monitor it by ear while doing laundry, and watching the presidential debate. On the day the project was due, the other students were complaining that "bubble sort took thirty minutes to run". I said "it took six hours on my Mac", and so I won the complaint contest. I doubt the professor wanted me to spend all evening with bubble sort, and just did not imagine a modern (2020) laptop could actually take six hours to do any comparison sort.) 
 
+----------------------------------
+SECTION H - Animation and Automata
+----------------------------------
+Now it is time to use two dimensional arrays and turtle graphics to put animations on a screen. (A two dimensional array is an array of smaller arrays.) We will be changing some of the settings on our turtle, so we can have more control over the screen. 
 
+Conway's Game of Life
+	- To play Conway's Game of Life, you put cells on a grid and watch them bounce around. Each cell has eight neighbors, by which they live or die. A cell is content with two or three live neighbors. Any fewer, and it dies of lonliness. Any more, and it dies of crowding. When a dead cell has three live neighbors, it comes to life! Use turtle graphics to implement this game by the late, great, John H. Conway.  
+
+	Hints:
+		- You are going to use a two dimensional array for a grid. The grid is made of rows, which are made of ones and zeroes (for live and dead cells) 
+		- To determine if a cell is alive or dead, check all eight of its neighbors: to the north, south, east, west, northeast, northwest, southeast, and southwest (or find a faster way).
+		- A cell in the north-west corner is at grid[0][0] or at "A0". "B0" is east of "A0" and "A1" is south of "A0". "AA0" is east of "Z0". "AB0" is east of "AA0"
+		- The turtle should not update constantly. Tell the turtle not to animate itself.
+		- The screen should only update when a generation of the game has been fully rendered, and every cell updated.
+		- Clear the screen before each render so the turtle stays fresh and happy. Otherwise, your program will slow down.
+		- You can assume all cells beyond the grid are dead, or you can uses the modulus operator to wrap your grid around a torus (connecting the opposite edges).
+		- You know your game works when you have a glider, which is a "spaceship" that travels diagonally. Your glider can have live cells at "B2", "C3", "D1", "D2", and "D3" (or anywhere else if the shape is correct).
