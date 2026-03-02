@@ -136,6 +136,7 @@ Sort Compare
 SECTION H - Animation and Automata
 ----------------------------------
 Now it is time to use two dimensional arrays and turtle graphics to put animations on a screen. (A two dimensional array is an array of smaller arrays.) We will be changing some of the settings on our turtle, so we can have more control over the screen.
+This can get pretty computationally intensive, so keep your computer on a flat surface, or elevated. Give the vents and fans the air they need. Make frequent backups of your work. You may need to revert to an older version of your code 
 
 Langton's Ant
 	- Invented by Chris Langton in 1986, this ant is a busy little bug. The ant lives of a grid of squares. Each sqaure can be one of two colors, usually black or white. The ant can go north, south, east, or west, and change the color of each sqaure it touches. When the ant touches a white sqaure, it turns right, turns the sqaure black, and continues to the next sqaure. When the ant touches a black sqaure, it turns left, turns the sqaure white, and continues to the next sqaure.
@@ -147,7 +148,18 @@ Langton's Ant
 		- Clear the screen every thousand steps so the ant stays fresh and happy. Otherwise, your program will slow down. The ant will remember its steps via the grid.
 		- Do not use the grid render used for Game of Life. Map the grid squares directly to canvas pixels. (This ant does not care nearly as much about specific sqaures at particular locations. They are happy to wander about the screen.)
 		- When the ant wanders too far away, reset, or termiante the program. Handle your errors, rather than crashing the program. You can completely reset the grid if you want.
-		- The ant is going to wander all over the place for about ten thousand steps. It should eventually build a bridge to the edge of the screen. You will see a distinct repeating pattern characteristic of a correct Langton's Ant. 
+		- The ant is going to wander all over the place for about ten thousand steps. It should eventually build a bridge to the edge of the screen. You will see a distinct repeating pattern characteristic of a correct Langton's Ant.
+
+Sort Visualizer
+	- This is a program that animates sorting algorithms on arrays of 100 items using a bar graph animated in turtle graphics. Demonstrate any of the following sorts: Bubble, Selection, Insertion, Heap, or Quick. You can also throw in a jocular algorithm if you wish. You do not have to do merge sort. You do not have to use a two dimensional array.
+
+	Hints:
+		- You are going to want to turn the tracer off. Only update the screen after a comparsion is made.
+		- Clear the screen before each render, so turtle stays fresh and happy (and fast).
+		- Focus on implementing sorting algorithms in-place, do not use extra space. 
+		- The verifier function is your friend, have it check your sort when it completes. (If quick sort is having doubts, the verifier can help.)
+		- Before sorting, use an in-place shuffle, that randomly swaps items 200 times (or 2n times)
+		- Add a caption on your screen, describing what is happening. You can also use it to display the number of swaps made, or the number of renders made.
 
 Conway's Game of Life
 	- To play Conway's Game of Life, you put cells on a grid and watch them bounce around. Each cell has eight neighbors, by which they live or die. A cell is content with two or three live neighbors. Any fewer, and it dies of lonliness. Any more, and it dies of crowding. When a dead cell has three live neighbors, it comes to life! Use turtle graphics to implement this 1970 game by the late, great, John H. Conway.  
