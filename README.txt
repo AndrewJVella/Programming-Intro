@@ -1,7 +1,7 @@
 Code Redstart: Introduction to Computer Programming.
 Copyright Andrew Vella 2026. MIT License.
 
-These are the assignments in mind for crash course introduction to programming. The paramount goal of this crash course is to demonstrate that the computer is a machine you can use, and own. Modern computers are designed to make us forget the machine is a machine, and not a magical device, like a palantir from Lord of the Rings. Computers have a history, and a logic, that you can understand. Why should you learn programming? So you can use your computer without all of those noisy apps. Know the machine, own the machine, save money on apps and subscriptions for the machine. 
+The paramount goal of this crash course is to demonstrate that the computer is a machine you can use, and own. Modern computers are designed to make us forget the machine is a machine, and not a magical device, like a palantir from Lord of the Rings. Computers have a history, and a logic, that you can understand. Why should you learn programming? So you can use your computer without all of those noisy apps. Know the machine, own the machine, save money on apps and subscriptions for the machine. 
 
 This course features 30 assignments designed to practice the fundamentals of programming, from your first "Hello World!", through loops, functions, and structures, up to animating your own graphics. Here are a few good principles to keep in mind while programming:
 	
