@@ -46,7 +46,7 @@ https://www.python.org/downloads/
 
 Launch the installer. Done.
 
-You will get an app called IDLE, which is an integrated development environment for python. You will also get a python shell, which is a window that can run lines of python code.
+You will get an app called IDLE, which is an integrated development environment for python. You will also get a python shell, which is a window that can run lines of python code. IDLE is good for dealing with tab errors, also called indentation errors. (Sometimes tabs get mixed up with spaces and confuse the compiler.) To resolve these errors, you can "untabify" your code in IDLE. 
 
 To start create a folder for your python scripts, and then create a new document in that folder. You can use IDLE, or any text editor to create the doc, just be sure it ends with ".py" for python.
 
@@ -91,6 +91,7 @@ Video Creators:
 - Crash Course Artificial Intelligence - https://www.youtube.com/playlist?list=PL8dPuuaLjXtO65LeD2p4_Sb5XQ51par_b
 - Kuvina https://www.youtube.com/@Kuvina
 - Tom7 - https://www.youtube.com/@tom7
+- Timo Bingmann - https://www.youtube.com/playlist?list=PLZh3kxyHrVp_AcOanN_jpuQbcMVdXbqei
 - Uniprod - https://www.udiprod.com/
 
 
