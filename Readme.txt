@@ -68,6 +68,7 @@ Open Source References:
 - https://www.geeksforgeeks.org/python/python-programming-language-tutorial/
 - https://www.w3schools.com/python/default.asp
 - https://www.online-python.com/
+- https://conwaylife.com/wiki/Main_Page
 
 Turtle References:
 - https://docs.python.org/3/library/turtle.html
